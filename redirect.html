@@ -1,0 +1,21 @@
+<!--
+This file is just to give a solid redirect url for services such as facebook that require it. Nothing need be changed.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirecting...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+</head>
+<body>
+    <div class="loading"><span>&bull;</span><span>&bull;</span><span>&bull;</span></div>
+
+    <h2>Please close this window to continue.</h2>
+    <script>
+    window.onbeforeunload = function(){
+        document.getElementsByTagName('h2')[0].innerHTML="Redirecting, please wait";
+    }
+    </script>
+    <script src="https://cdn.flybase.io/flybase-auth.min.js"></script>
+</body>
+</html>
