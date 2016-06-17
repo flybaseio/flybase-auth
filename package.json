@@ -1,0 +1,22 @@
+{
+  "name": "flybase-auth",
+  "version": "1.0.0",
+  "description": "A Javascript RESTFUL API library for connecting with OAuth2 services, such as Google+ API, Facebook Graph and Windows Live Connect, complete with Angular.js support.",
+  "main": "flybase-auth.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flybaseio/flybase-auth.git"
+  },
+  "author": "Roger Stringer <roger@datamcfly.com> (http://datamcfly.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flybaseio/flybase-auth/issues"
+  },
+  "homepage": "https://github.com/flybaseio/flybase-auth#readme",
+  "dependencies": {
+    "uglify-js": "2.6.2"
+  }
+}
