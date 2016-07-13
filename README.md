@@ -30,7 +30,7 @@ Register your application with at least one of the following networks. Ensure yo
 ### 2. Include Flybaseauth.js script in your page
 
 ```html
-<script src="https://cdn.flybase.io/flybaseauth.min.js"></script>
+<script src="https://cdn.flybase.io/flybase-auth.min.js"></script>
 ```
 
 ### 3. Create the sign-in buttons
@@ -62,7 +62,7 @@ flybaseauth.on('auth.login', function(auth) {
 });
 ```
 
-### 5. Configure flybaseauth.js with your client IDs and initiate all listeners
+### 5. Configure flybase-auth with your client IDs and initiate all listeners
 
 Now let's wire it up with our registration detail obtained in step 1. By passing a [key:value, ...] list into the `flybaseauth.init` function. e.g....
 
