@@ -27,7 +27,7 @@ Register your application with at least one of the following networks. Ensure yo
 - [Google+](https://code.google.com/apis/console/b/0/#:access)
 
 
-### 2. Include Flybaseauth.js script in your page
+### 2. Include flybase-auth.js script in your page
 
 ```html
 <script src="https://cdn.flybase.io/flybase-auth.min.js"></script>
@@ -35,7 +35,7 @@ Register your application with at least one of the following networks. Ensure yo
 
 ### 3. Create the sign-in buttons
 
-Just add onclick events to call `flybaseauth(network).login()`. 
+Just add onclick events to call `flybaseauth(network).login()`.
 
 ```html
 <button onclick="flybaseauth('facebook').login()">Facebook</button>
