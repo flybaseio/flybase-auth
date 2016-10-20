@@ -11,7 +11,7 @@ Quick start shows you how to go from zero to loading in the name and picture of 
 
 
 - [Register your app domain](#1-register)
-- [Include flybas-eauth.js script](#2-include-flybase-authjs-script-in-your-page)
+- [Include flybase-auth.js script](#2-include-flybase-authjs-script-in-your-page)
 - [Create the sign-in buttons](#3-create-the-signin-buttons)
 - [Setup listener for login and retrieve user info](#4-add-listeners-for-the-user-login)
 - [Initiate the client_ids and all listeners](#5-configure-hellojs-with-your-client_ids-and-initiate-all-listeners)
